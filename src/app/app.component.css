@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+  }
+  
+  .game-container {
+    width: 845px;
+    height: 363px;
+    padding: 20px;
+    margin: 0px auto;
+    border: 2px solid purple;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .dot {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    background-color: white;
+    transition: background-color 0.5s;
+  }
+  
+  .red { background-color: darkred; }
+  .blue { background-color: darkblue; }
+  .green { background-color: darkgreen; }
+  .pink { background-color: deeppink; }
+  .yellow { background-color: greenyellow; }
+  .purple { background-color: purple; }
+  .orange { background-color: darkorange; }
+  .cyan { background-color: darkcyan; }
+  .grey { background-color: brown; }
+  .magenta { background-color: darkmagenta; }
+  
+  .result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: darkmagenta;
+  }
+  
